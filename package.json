@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo  \"Error:no test specified\" && exit 1",
+    "start": "node index 'mongodb+srv://enzo216374:321654987aA@cluster0.l437ehd.mongodb.net/tarefasDB?retryWrites=true&w=majority'"
   },
   "author": "",
   "license": "ISC",
