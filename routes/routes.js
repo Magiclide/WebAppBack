@@ -18,7 +18,7 @@ router.post('/post', async (req, res) => {
    router.get('/getAll', async (req, res) => {
     try {
     const resultados = await modeloTarefa.find();
-    res.json(resultados)
+    res.send(resultados)
     }
     catch (error) {
     res.status(500).json({ message: error.message })
