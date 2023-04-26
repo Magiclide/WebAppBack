@@ -17,6 +17,7 @@ router.post('/post', async (req, res) => {
    })
    router.get('/getAll', async (req, res) => {
     try {
+        console.log("teste");
     const resultados = await modeloTarefa.find();
     res.json(resultados)
     }
